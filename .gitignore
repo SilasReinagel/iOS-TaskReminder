@@ -1,22 +1,25 @@
-# Compiled class file
-*.class
+# Gradle work files
+.gradle
 
-# Log file
-*.log
+# Build folders
+build
+target
 
-# BlueJ files
-*.ctxt
+# Eclipse project files
+bin
+.settings
+.classpath
+.project
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Idea / Android Studio files
+.idea
+*.iml
+*.ipr
+*.iws
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Xcode user specific data
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Mac Finder
+.DS_Store
